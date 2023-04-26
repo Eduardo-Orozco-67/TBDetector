@@ -31,8 +31,9 @@ struct InfoView: View {
                         Text("La tuberculosis es una enfermedad infecciosa causada por una bacteria llamada Mycobacterium tuberculosis. Según la OMS, un tercio de la población mundial está infectada con la bacteria y es un desafío para la salud pública debido a su alta capacidad de propagación.").foregroundColor(.white).font(.system(size: 40)).multilineTextAlignment(.trailing).frame(width: 700).fontWeight(.medium).padding(.bottom,50)
                         Image("Doc3").padding(.leading,50).shadow(radius: 10)
                     }.frame(width: 1000, height:    450).padding(.top,70).background(Color.Rosa).cornerRadius(30)
+                    Spacer().padding(50)
                 }
-            }
+            }.scrollIndicators(ScrollIndicatorVisibility.hidden)//Fin del scrollview
         }.ignoresSafeArea(.all)
     }
 }
