@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804C929F987DA00697970 /* SplashScreenView.swift */; };
+		0D1804CC29F9882E00697970 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804CB29F9882E00697970 /* Color.swift */; };
 		0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */; };
 		0D9C281F29F9861200BA7ADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C281E29F9861200BA7ADB /* ContentView.swift */; };
 		0D9C282129F9861300BA7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C282029F9861300BA7ADB /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1804C929F987DA00697970 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		0D1804CB29F9882E00697970 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0D9C281929F9861200BA7ADB /* TBDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorApp.swift; sourceTree = "<group>"; };
 		0D9C281E29F9861200BA7ADB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */,
+				0D1804C929F987DA00697970 /* SplashScreenView.swift */,
 				0D9C281E29F9861200BA7ADB /* ContentView.swift */,
+				0D1804CB29F9882E00697970 /* Color.swift */,
 				0D9C282029F9861300BA7ADB /* Assets.xcassets */,
 				0D9C282529F9861300BA7ADB /* Persistence.swift */,
 				0D9C282729F9861300BA7ADB /* TBDetector.xcdatamodeld */,
@@ -265,8 +271,10 @@
 			files = (
 				0D9C282629F9861300BA7ADB /* Persistence.swift in Sources */,
 				0D9C281F29F9861200BA7ADB /* ContentView.swift in Sources */,
+				0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */,
 				0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */,
 				0D9C282929F9861300BA7ADB /* TBDetector.xcdatamodeld in Sources */,
+				0D1804CC29F9882E00697970 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
