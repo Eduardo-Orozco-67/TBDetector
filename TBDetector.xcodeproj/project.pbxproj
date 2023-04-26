@@ -110,9 +110,9 @@
 				0D1804CB29F9882E00697970 /* Color.swift */,
 				0D9C282029F9861300BA7ADB /* Assets.xcassets */,
 				0D9C282529F9861300BA7ADB /* Persistence.swift */,
+				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
 				0D9C282729F9861300BA7ADB /* TBDetector.xcdatamodeld */,
 				0D9C282229F9861300BA7ADB /* Preview Content */,
-				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
 			);
 			path = TBDetector;
 			sourceTree = "<group>";
