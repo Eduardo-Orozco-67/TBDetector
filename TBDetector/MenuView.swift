@@ -8,74 +8,87 @@
 import SwiftUI
 
 struct MenuView: View {
-    
+
     var body: some View {
         
         ZStack{
-            //Color de fondo
-            
-            Color.black.opacity(0.5)
-            //---------------------------
+            LinearGradient(colors: [Color.Celeste,Color.CelestePlus], startPoint: .top, endPoint: .bottom)
             //Seccion del titulo
             VStack(spacing: 15){
                 VStack(alignment: .leading, spacing: 12){
-                    Text("Select a city").font(.system(size: 60)).foregroundColor(.white).shadow(radius: 10)
-                }.padding(.top,70).padding(.bottom,50)
+                    Text("Selecciona una opción").font(.system(size: 70)).foregroundColor(.AzulMarino)
+                }.padding(.top,70).fontWeight(.heavy).padding(.bottom,50)
                 //Mostramos el carrusel-----------------
                 ScrollView(.horizontal,showsIndicators: false){
                     HStack(alignment:.top,spacing: 30){
                         //Card de Informacion
                         NavigationLink(destination: InfoView()){
                             ZStack{
-                                Color.pink
+                                Color.Rosa
                                 VStack{
-                                    Image("Doc3").resizable().frame(width: 100,height: 300)
+                                    Image("Info").resizable().frame(width: 220,height: 300)
                                     //Color.black.opacity(0.3)
-                                    Text("Informacion").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                    Text("¿Qué es la tuberculosis?").foregroundColor(.white).fontWeight(.bold).font(.system(size: 45))
 
                                 }
-                            }.frame(width: 420,height: 500).cornerRadius(10).shadow(radius: 5)
+                            }.frame(width: 480,height: 500).cornerRadius(30).shadow(radius: 5)
                             //Fin del Zstack de la tarjeta
                             
                         }//Fin del NavigationLink
                         
-                        //_______Card de diagnostico
+                        //_______Card de trasmisión
                         NavigationLink(destination: InfoView()){
                             ZStack{
-                                Color.pink
+                                Color.Rosa
                                 VStack{
-                                    Image("Doc4").resizable().frame(width: 100,height: 300)
+                                    Image("c3").resizable().frame(width: 370,height: 250)
                                     //Color.black.opacity(0.3)
-                                    Text("Informacion").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                    Text("¿Cómo se transmite la TB?").foregroundColor(.white).fontWeight(.bold).font(.system(size: 45)).frame(width: 400)
 
                                 }
-                            }.frame(width: 420,height: 500).cornerRadius(10).shadow(radius: 5)
+                            }.frame(width: 480,height: 500).cornerRadius(30).shadow(radius: 5)
                             //Fin del Zstack de la tarjeta
                             
                         }//Fin del NavigationLink
                         
                         
-                        //___Card de Igene y salud
+                        //___Card de sintomas
                         NavigationLink(destination: InfoView()){
                             ZStack{
-                                Color.pink
+                                Color.Rosa
                                 VStack{
-                                    Image("Doc3").resizable().frame(width: 100,height: 300)
+                                    Image("c2").resizable().frame(width: 180,height: 300)
                                     //Color.black.opacity(0.3)
-                                    Text("Informacion").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                    Text("¿Cuáles son los síntomas de la TB?").foregroundColor(.white).fontWeight(.bold).font(.system(size: 45))
 
                                 }
-                            }.frame(width: 420,height: 500).cornerRadius(10).shadow(radius: 5)
+                            }.frame(width: 480,height: 500).cornerRadius(30).shadow(radius: 5)
                             //Fin del Zstack de la tarjeta
                             
                         }//Fin del NavigationLink
+                        
+                        //___Card de ¿Es posible prevenir la TB?
+                        NavigationLink(destination: InfoView()){
+                            ZStack{
+                                Color.Rosa
+                                VStack{
+                                    Image("c4").resizable().frame(width: 170,height: 230)
+                                    //Color.black.opacity(0.3)
+                                    Text("¿Es posible prevenir la TB?").foregroundColor(.white).fontWeight(.bold).font(.system(size: 45))
+
+                                }
+                            }.frame(width: 480,height: 500).cornerRadius(30).shadow(radius: 5)
+                            //Fin del Zstack de la tarjeta
+                            
+                        }//Fin del NavigationLink
+                        
                         
                     }.padding(.leading,20)//Fin del Hstack
                 }//Fin del ScrollView
             }.frame(maxHeight: .infinity, alignment: .top)
             //Fin del VStack
             
-        }.ignoresSafeArea(.all).background(.black)
+        }.ignoresSafeArea(.all).background(Color.Celeste)
         //Fin del ZStack
     }
 }
