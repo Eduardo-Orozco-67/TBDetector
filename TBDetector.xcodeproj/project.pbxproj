@@ -10,7 +10,7 @@
 		0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804C929F987DA00697970 /* SplashScreenView.swift */; };
 		0D1804CC29F9882E00697970 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804CB29F9882E00697970 /* Color.swift */; };
 		0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */; };
-		0D9C281F29F9861200BA7ADB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C281E29F9861200BA7ADB /* ContentView.swift */; };
+		0D9C281F29F9861200BA7ADB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0D9C282129F9861300BA7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C282029F9861300BA7ADB /* Assets.xcassets */; };
 		0D9C282429F9861300BA7ADB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C282329F9861300BA7ADB /* Preview Assets.xcassets */; };
 		0D9C282629F9861300BA7ADB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C282529F9861300BA7ADB /* Persistence.swift */; };
@@ -282,7 +282,7 @@
 				0D9C282629F9861300BA7ADB /* Persistence.swift in Sources */,
 				0DC6969929F996A300863BB4 /* MenuView.swift in Sources */,
 				0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */,
-				0D9C281F29F9861200BA7ADB /* ContentView.swift in Sources */,
+				0D9C281F29F9861200BA7ADB /* (null) in Sources */,
 				0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */,
 				0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */,
 				0D9C282929F9861300BA7ADB /* TBDetector.xcdatamodeld in Sources */,
@@ -447,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TBDetector/Preview Content\"";
-				DEVELOPMENT_TEAM = YSMHR76Q6M;
+				DEVELOPMENT_TEAM = HS8CSK756X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Eduardo.TBDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = unach.TBDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -479,7 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TBDetector/Preview Content\"";
-				DEVELOPMENT_TEAM = YSMHR76Q6M;
+				DEVELOPMENT_TEAM = HS8CSK756X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -492,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Eduardo.TBDetector;
+				PRODUCT_BUNDLE_IDENTIFIER = unach.TBDetector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

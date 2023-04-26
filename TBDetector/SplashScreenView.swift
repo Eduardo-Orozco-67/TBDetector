@@ -8,7 +8,7 @@ struct SplashScreenView: View {
     // Customise your SplashScreen here
     var body: some View {
         if isActive {
-            
+            Principal()
         } else {
             VStack {
                 VStack {
