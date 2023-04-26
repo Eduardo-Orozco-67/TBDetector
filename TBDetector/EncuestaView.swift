@@ -9,56 +9,78 @@ import SwiftUI
 
 struct EncuestaView: View {
     @State private var tos: Bool = false
-        @State private var fiebre: Bool = false
-        @State private var sudoresNocturnos: Bool = false
-        @State private var perdidaDePeso: Bool = false
-        @State private var fatiga: Bool = false
-        @State private var resultado: String = ""
+       @State private var fiebre: Bool = false
+       @State private var sudoresNocturnos: Bool = false
+       @State private var perdidaDePeso: Bool = false
+       @State private var fatiga: Bool = false
+       @State private var resultado: String = ""
+       
+       var body: some View {
+           VStack {
+               Text("¿Tiene el niño alguno de estos síntomas?")
+                   .font(.headline)
+                   .padding()
+               
+               HStack {
+                   SymptomToggle(isOn: $tos, icon: "tose")
+                   SymptomToggle(isOn: $fiebre, icon: "fiebre")
+               }
+               
+               HStack {
+                   SymptomToggle(isOn: $sudoresNocturnos, icon: "sudores")
+                   SymptomToggle(isOn: $perdidaDePeso, icon: "peso")
+               }
+               
+               HStack {
+                   SymptomToggle(isOn: $fatiga, icon: "fatiga")
+               }
+               
+               Button(action: evaluar) {
+                   Text("Evaluar")
+                       .font(.headline)
+                       .foregroundColor(.white)
+                       .padding()
+                       .frame(maxWidth: .infinity)
+                       .background(Color.blue)
+                       .cornerRadius(10)
+               }
+               
+               Text(resultado)
+                   .font(.headline)
+                   .padding()
+               
+           }
+           .navigationBarTitle("Formulario de detección de tuberculosis")
+       }
+       
+       func evaluar() {
+           if tos && fiebre && sudoresNocturnos && perdidaDePeso && fatiga {
+               resultado = "Posible tuberculosis. Por favor, consulte a un médico."
+           } else {
+               resultado = "No se detectaron síntomas de tuberculosis."
+           }
+       }
+   }
 
-        var body: some View {
-            Form {
-                Section(header: Text("Síntomas")) {
-                    Toggle(isOn: $tos) {
-                        Text("Tos persistente por más de dos semanas")
-                    }
-                    Toggle(isOn: $fiebre) {
-                        Text("Fiebre")
-                    }
-                    Toggle(isOn: $sudoresNocturnos) {
-                        Text("Sudores nocturnos")
-                    }
-                    Toggle(isOn: $perdidaDePeso) {
-                        Text("Pérdida de peso sin razón aparente")
-                    }
-                    Toggle(isOn: $fatiga) {
-                        Text("Fatiga generalizada")
-                    }
-                }
-                Section(header: Text("Resultado")) {
-                    Text(resultado)
-                        .font(.headline)
-                }
-                Button(action: evaluar) {
-                    Text("Evaluar")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.blue)
-                        .cornerRadius(10)
-                }
-            }
-            .navigationBarTitle("Formulario de detección de tuberculosis")
-        }
-        
-        func evaluar() {
-            if tos && fiebre && sudoresNocturnos && perdidaDePeso && fatiga {
-                resultado = "Posible tuberculosis. Por favor, consulte a un médico."
-            } else {
-                resultado = "No se detectaron síntomas de tuberculosis."
-            }
-        }
-    }
+   struct SymptomToggle: View {
+       @Binding var isOn: Bool
+       var icon: String
+       
+       var body: some View {
+           VStack {
+               Image(systemName: icon)
+                   .resizable()
+                   .aspectRatio(contentMode: .fit)
+                   .frame(width: 50, height: 50)
+                   .padding(.bottom, 10)
+               
+               Toggle(isOn: $isOn) {
+                   Text("")
+               }
+               .labelsHidden()
+           }
+       }
+   }
 
 struct EncuestaView_Previews: PreviewProvider {
     static var previews: some View {
