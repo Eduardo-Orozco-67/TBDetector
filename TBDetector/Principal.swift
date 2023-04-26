@@ -6,32 +6,43 @@ struct Principal: View {
         NavigationView{
             ZStack{
                 Color.Celeste
-                
                 VStack{
-                    HStack{
-                        
-                        Image("logoTB2-sinfondo")
-                            .resizable()
-                            .frame(width: 100, height: 100)
-                            .padding(.trailing, 300)
-                        Text("TBDetector")
-                            .font(.custom("Impact", fixedSize: 60))
-                            .foregroundColor(.black)
-                        
-                        Image("logoTB2-sinfondo")
-                            .resizable()
-                            .frame(width: 100, height: 100)
-                            .padding(.leading, 300)
+                    ZStack{
+                        Color.AguaMarina
+                            .frame(width: 1150, height: 130)
+                            .cornerRadius(30.0)
+                            .opacity(0.50)
+                        HStack{
+                            
+                            Image("logoTB2-sinfondo")
+                                .resizable()
+                                .frame(width: 100, height: 100)
+                                .padding(.trailing, 300)
+                            Text("TBDetector")
+                                .font(.custom("Impact", fixedSize: 60))
+                                .foregroundColor(Color.Rojo)
+                            
+                            Image("logoTB2-sinfondo")
+                                .resizable()
+                                .frame(width: 100, height: 100)
+                                .padding(.leading, 300)
+                        }
                     }
-                    
+                    .padding(.bottom,30)
                     HStack{
-                        Image("Doctores1")
-                            .resizable()
-                            .frame(width: 500, height: 500)
+                        VStack{
+                            Image("Doctores1")
+                                .resizable()
+                                .frame(width: 480, height: 480)
+                            
+                            Text("Por una mejor calidad de vida").foregroundColor(Color.AzulMarino).fontWeight(.light)
+                                .font(Font.custom("Arial Rounded MT Bold", size: 26))
+                            
+                        }
                         //Spacer(20)
                             .padding(20)
                         ZStack{
-                            Color.AzulMarino
+                            Color.AguaMarina
                                 .frame(width: 600, height: 500)
                                 .cornerRadius(30.0)
                                 .opacity(0.35)
@@ -39,28 +50,33 @@ struct Principal: View {
                             HStack(alignment:.top,spacing: 30){
                                 NavigationLink(destination: MenuView()){
                                     ZStack{
-                                        Color.pink
+                                        Color.Rosa
+                                            .opacity(0.70)
                                         VStack{
-                                            Image("Diagnostico").resizable().frame(width: 200,height: 300)
+                                            Image("Diagnostico").resizable().frame(width: 240,height: 300)
                                             //Color.black.opacity(0.3)
-                                            Text("Diagnostico").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                            Text("Diagnóstico").foregroundColor(.white).fontWeight(.light)
+                                                .font(Font.custom("Arial Rounded MT Bold", size: 26))
                                             
                                         }
-                                    }.frame(width: 220,height: 400).cornerRadius(10).shadow(radius: 5)
+                                    }.frame(width: 240,height: 400).cornerRadius(10).shadow(radius: 5)
                                     //Fin del Zstack de la tarjeta
                                     
                                 }//Fin del NavigationLink
                                 
                                 NavigationLink(destination: MenuView()){
                                     ZStack{
-                                        Color.pink
+                                        Color.Rosa
+                                            .opacity(0.70)
                                         VStack{
-                                            Image("Información").resizable().frame(width: 200,height: 300)
+                                            Image("Información").resizable().frame(width: 230,height: 300)
                                             //Color.black.opacity(0.3)
-                                            Text("Información").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                            Text("Información")
+                                                .foregroundColor(.white).fontWeight(.light)
+                                                .font(Font.custom("Arial Rounded MT Bold", size: 26))
                                             
                                         }
-                                    }.frame(width: 220,height: 400).cornerRadius(10).shadow(radius: 5)
+                                    }.frame(width: 240,height: 400).cornerRadius(10).shadow(radius: 5)
                                     //Fin del Zstack de la tarjeta
                                     
                                 }//Fin del NavigationLink
