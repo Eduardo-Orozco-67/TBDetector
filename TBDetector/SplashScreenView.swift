@@ -8,17 +8,17 @@ struct SplashScreenView: View {
     // Customise your SplashScreen here
     var body: some View {
         if isActive {
-            ContentView()
+            
         } else {
             VStack {
                 VStack {
-                    Image("LogoNew")
+                    Image("logoTB2")
                         .resizable()
                         .frame(width: 120, height:120)
                         .cornerRadius(30.0)
                     
-                    Text("Matzu")
-                        .font(Font.custom("Baskerville-Bold", size: 26))
+                    Text("TBDetector")
+                        .font(Font.custom("Arial Rounded MT Bold", size: 26))
                         .foregroundColor(.black.opacity(0.80))
                 }
                 .scaleEffect(size)
