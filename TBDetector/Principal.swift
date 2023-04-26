@@ -18,9 +18,12 @@ struct Principal: View {
                                 .resizable()
                                 .frame(width: 100, height: 100)
                                 .padding(.trailing, 300)
-                            Text("TBDetector")
+                            Text("TB")
                                 .font(.custom("Impact", fixedSize: 60))
                                 .foregroundColor(Color.Rojo)
+                            Text("Detector")
+                                .font(.custom("Impact", fixedSize: 60))
+                                .foregroundColor(Color.black)
                             
                             Image("logoTB2-sinfondo")
                                 .resizable()
@@ -53,9 +56,9 @@ struct Principal: View {
                                         Color.Rosa
                                             .opacity(0.70)
                                         VStack{
-                                            Image("Diagnostico").resizable().frame(width: 240,height: 300)
-                                            //Color.black.opacity(0.3)
-                                            Text("Diagnóstico").foregroundColor(.white).fontWeight(.light)
+                                            Image("Diagnostico").resizable().frame(width: 240,height: 230)
+                                            
+                                            Text("Diagnóstico").foregroundColor(.white).fontWeight(.medium).font(.system(size: 35))
                                                 .font(Font.custom("Arial Rounded MT Bold", size: 26))
                                             
                                         }
@@ -71,9 +74,9 @@ struct Principal: View {
                                         VStack{
                                             Image("Información").resizable().frame(width: 230,height: 300)
                                             //Color.black.opacity(0.3)
-                                            Text("Información")
-                                                .foregroundColor(.white).fontWeight(.light)
+                                            Text("Información").foregroundColor(.white).fontWeight(.medium).font(.system(size: 35))
                                                 .font(Font.custom("Arial Rounded MT Bold", size: 26))
+                                                
                                             
                                         }
                                     }.frame(width: 240,height: 400).cornerRadius(10).shadow(radius: 5)
@@ -93,8 +96,10 @@ struct Principal: View {
                 
             }
             .ignoresSafeArea()
-        }
+        }//Fin del NV
+        
         .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 

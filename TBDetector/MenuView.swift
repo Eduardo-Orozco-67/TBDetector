@@ -18,6 +18,7 @@ struct MenuView: View {
                 VStack(alignment: .leading, spacing: 12){
                     Text("Selecciona una opción").font(.system(size: 70)).foregroundColor(.AzulMarino)
                 }.padding(.top,70).fontWeight(.heavy).padding(.bottom,50)
+                
                 //Mostramos el carrusel-----------------
                 ScrollView(.horizontal,showsIndicators: false){
                     HStack(alignment:.top,spacing: 30){
