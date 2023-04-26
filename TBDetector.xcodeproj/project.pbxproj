@@ -18,6 +18,7 @@
 		0D9C283329F9861300BA7ADB /* TBDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283229F9861300BA7ADB /* TBDetectorTests.swift */; };
 		0D9C283D29F9861300BA7ADB /* TBDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283C29F9861300BA7ADB /* TBDetectorUITests.swift */; };
 		0D9C283F29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283E29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift */; };
+		0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		0D9C283829F9861300BA7ADB /* TBDetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBDetectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9C283C29F9861300BA7ADB /* TBDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorUITests.swift; sourceTree = "<group>"; };
 		0D9C283E29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncuestaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0D9C282529F9861300BA7ADB /* Persistence.swift */,
 				0D9C282729F9861300BA7ADB /* TBDetector.xcdatamodeld */,
 				0D9C282229F9861300BA7ADB /* Preview Content */,
+				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
 			);
 			path = TBDetector;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9C282629F9861300BA7ADB /* Persistence.swift in Sources */,
+				0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */,
 				0D9C281F29F9861200BA7ADB /* ContentView.swift in Sources */,
 				0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */,
 				0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */,
