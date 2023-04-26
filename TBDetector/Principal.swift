@@ -30,27 +30,42 @@ struct Principal: View {
                             .frame(width: 500, height: 500)
                         //Spacer(20)
                             .padding(20)
-                        HStack{
-                            Color.Rosa
+                        ZStack{
+                            Color.AzulMarino
                                 .frame(width: 600, height: 500)
                                 .cornerRadius(30.0)
-                                .opacity(0.55)
+                                .opacity(0.35)
+                            
+                            HStack(alignment:.top,spacing: 30){
+                                NavigationLink(destination: MenuView()){
+                                    ZStack{
+                                        Color.pink
+                                        VStack{
+                                            Image("Diagnostico").resizable().frame(width: 200,height: 300)
+                                            //Color.black.opacity(0.3)
+                                            Text("Diagnostico").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                            
+                                        }
+                                    }.frame(width: 220,height: 400).cornerRadius(10).shadow(radius: 5)
+                                    //Fin del Zstack de la tarjeta
+                                    
+                                }//Fin del NavigationLink
                                 
-                            HStack{
-                                //NavigationLink(destination: MainView){
-                                //.fill(Color.blue)
-                                Text("")
-                                .frame(width: 200, height: 200)
-                                .shadow(radius: 10)
-                                .overlay(
-                                    Image("Diagnostico")
-                                        .foregroundColor(.white)
-                                        .font(.system(size: 70, weight: .bold))
-                                    )
+                                NavigationLink(destination: MenuView()){
+                                    ZStack{
+                                        Color.pink
+                                        VStack{
+                                            Image("Información").resizable().frame(width: 200,height: 300)
+                                            //Color.black.opacity(0.3)
+                                            Text("Información").foregroundColor(.white).fontWeight(.light).font(.system(size: 25))
+                                            
+                                        }
+                                    }.frame(width: 220,height: 400).cornerRadius(10).shadow(radius: 5)
+                                    //Fin del Zstack de la tarjeta
+                                    
+                                }//Fin del NavigationLink
                                 
-                                
-                                }
-                            //}
+                            }
                         }
                         
                         
