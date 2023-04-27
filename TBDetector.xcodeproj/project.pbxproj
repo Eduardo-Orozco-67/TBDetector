@@ -11,6 +11,7 @@
 		0D1804CC29F9882E00697970 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804CB29F9882E00697970 /* Color.swift */; };
 		0D1BF9D729F9FE76009E3AFF /* preguntaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BF9D629F9FE75009E3AFF /* preguntaView.swift */; };
 		0D1BF9D929F9FEF2009E3AFF /* TuberculosisFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BF9D829F9FEF2009E3AFF /* TuberculosisFormView.swift */; };
+		0D1BF9DB29FA0505009E3AFF /* form2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1BF9DA29FA0505009E3AFF /* form2View.swift */; };
 		0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */; };
 		0D9C281F29F9861200BA7ADB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0D9C282129F9861300BA7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C282029F9861300BA7ADB /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		0D1804CB29F9882E00697970 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0D1BF9D629F9FE75009E3AFF /* preguntaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preguntaView.swift; sourceTree = "<group>"; };
 		0D1BF9D829F9FEF2009E3AFF /* TuberculosisFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuberculosisFormView.swift; sourceTree = "<group>"; };
+		0D1BF9DA29FA0505009E3AFF /* form2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = form2View.swift; sourceTree = "<group>"; };
 		0D9C281929F9861200BA7ADB /* TBDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorApp.swift; sourceTree = "<group>"; };
 		0D9C282029F9861300BA7ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				0DB6975529FA01F0000388D3 /* PTBView.swift */,
 				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
 				0D1BF9D629F9FE75009E3AFF /* preguntaView.swift */,
+				0D1BF9DA29FA0505009E3AFF /* form2View.swift */,
 				0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */,
 				0D9C282729F9861300BA7ADB /* TBDetector.xcdatamodeld */,
 				0D9C282229F9861300BA7ADB /* Preview Content */,
@@ -321,8 +324,7 @@
 				0DB6975629FA01F0000388D3 /* PTBView.swift in Sources */,
 				0DBD552229F9E4A000DCB9A4 /* FormularioView.swift in Sources */,
 				0DE6F38029F9986F00ECC77F /* Principal.swift in Sources */,
-				0DB6975429FA01E1000388D3 /* SintoView.swift in Sources */,
-				0DB6975229FA01AC000388D3 /* WarningView.swift in Sources */,
+				0D1BF9DB29FA0505009E3AFF /* form2View.swift in Sources */,
 				0D1804CC29F9882E00697970 /* Color.swift in Sources */,
 				0D1BF9D929F9FEF2009E3AFF /* TuberculosisFormView.swift in Sources */,
 			);
