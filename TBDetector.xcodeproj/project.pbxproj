@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804C929F987DA00697970 /* SplashScreenView.swift */; };
 		0D1804CC29F9882E00697970 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1804CB29F9882E00697970 /* Color.swift */; };
+		0D8AD35429F9EC9800CEDEDA /* preguntaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AD35329F9EC9800CEDEDA /* preguntaView.swift */; };
 		0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */; };
 		0D9C281F29F9861200BA7ADB /* (null) in Sources */ = {isa = PBXBuildFile; };
 		0D9C282129F9861300BA7ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C282029F9861300BA7ADB /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */; };
 		0DC6969929F996A300863BB4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6969829F996A300863BB4 /* MenuView.swift */; };
 		0DC6969D29F99BBB00863BB4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6969C29F99BBB00863BB4 /* InfoView.swift */; };
+		0DC76A7729F9D4DC00604FA6 /* TuberculosisFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC76A7629F9D4DC00604FA6 /* TuberculosisFormView.swift */; };
 		0DE6F38029F9986F00ECC77F /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6F37F29F9986F00ECC77F /* Principal.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,7 @@
 /* Begin PBXFileReference section */
 		0D1804C929F987DA00697970 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		0D1804CB29F9882E00697970 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0D8AD35329F9EC9800CEDEDA /* preguntaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preguntaView.swift; sourceTree = "<group>"; };
 		0D9C281929F9861200BA7ADB /* TBDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorApp.swift; sourceTree = "<group>"; };
 		0D9C282029F9861300BA7ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncuestaView.swift; sourceTree = "<group>"; };
 		0DC6969829F996A300863BB4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0DC6969C29F99BBB00863BB4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		0DC76A7629F9D4DC00604FA6 /* TuberculosisFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuberculosisFormView.swift; sourceTree = "<group>"; };
 		0DE6F37F29F9986F00ECC77F /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,8 @@
 				0DC6969C29F99BBB00863BB4 /* InfoView.swift */,
 				0D9C282529F9861300BA7ADB /* Persistence.swift */,
 				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
+				0DC76A7629F9D4DC00604FA6 /* TuberculosisFormView.swift */,
+				0D8AD35329F9EC9800CEDEDA /* preguntaView.swift */,
 				0D9C282729F9861300BA7ADB /* TBDetector.xcdatamodeld */,
 				0D9C282229F9861300BA7ADB /* Preview Content */,
 			);
@@ -285,6 +291,8 @@
 				0D9C281F29F9861200BA7ADB /* (null) in Sources */,
 				0D1804CA29F987DA00697970 /* SplashScreenView.swift in Sources */,
 				0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */,
+				0D8AD35429F9EC9800CEDEDA /* preguntaView.swift in Sources */,
+				0DC76A7729F9D4DC00604FA6 /* TuberculosisFormView.swift in Sources */,
 				0D9C282929F9861300BA7ADB /* TBDetector.xcdatamodeld in Sources */,
 				0DC6969D29F99BBB00863BB4 /* InfoView.swift in Sources */,
 				0DE6F38029F9986F00ECC77F /* Principal.swift in Sources */,

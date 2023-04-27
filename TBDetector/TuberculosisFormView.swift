@@ -1,5 +1,5 @@
 //
-//  EncuestaView.swift
+//  TuberculosisFormView.swift
 //  TBDetector
 //
 //  Created by ADMIN UNACH on 26/04/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EncuestaView: View {
+struct TuberculosisFormView: View {
     @State private var tos: Bool = false
        @State private var fiebre: Bool = false
        @State private var sudoresNocturnos: Bool = false
@@ -233,7 +233,7 @@ struct EncuestaView: View {
                 VStack{
                     Button(action: evaluar) {
                         Text("Evaluar")
-                            .font(.headline)
+                            .font(.system(size: 40))
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
@@ -260,8 +260,9 @@ struct EncuestaView: View {
        }
    }
 
-struct EncuestaView_Previews: PreviewProvider {
+
+struct TuberculosisFormView_Previews: PreviewProvider {
     static var previews: some View {
-        EncuestaView()
+        TuberculosisFormView()
     }
 }
