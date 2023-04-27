@@ -19,6 +19,7 @@
 		0D9C283D29F9861300BA7ADB /* TBDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283C29F9861300BA7ADB /* TBDetectorUITests.swift */; };
 		0D9C283F29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283E29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift */; };
 		0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */; };
+		0DBD552229F9E4A000DCB9A4 /* FormularioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */; };
 		0DC6969929F996A300863BB4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6969829F996A300863BB4 /* MenuView.swift */; };
 		0DC6969D29F99BBB00863BB4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6969C29F99BBB00863BB4 /* InfoView.swift */; };
 		0DE6F38029F9986F00ECC77F /* Principal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6F37F29F9986F00ECC77F /* Principal.swift */; };
@@ -56,6 +57,7 @@
 		0D9C283C29F9861300BA7ADB /* TBDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorUITests.swift; sourceTree = "<group>"; };
 		0D9C283E29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncuestaView.swift; sourceTree = "<group>"; };
+		0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioView.swift; sourceTree = "<group>"; };
 		0DC6969829F996A300863BB4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0DC6969C29F99BBB00863BB4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		0DE6F37F29F9986F00ECC77F /* Principal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principal.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				0DC6969C29F99BBB00863BB4 /* InfoView.swift */,
 				0D9C282529F9861300BA7ADB /* Persistence.swift */,
 				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
+				0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */,
 				0D9C282729F9861300BA7ADB /* TBDetector.xcdatamodeld */,
 				0D9C282229F9861300BA7ADB /* Preview Content */,
 			);
@@ -287,6 +290,7 @@
 				0D9C281D29F9861200BA7ADB /* TBDetectorApp.swift in Sources */,
 				0D9C282929F9861300BA7ADB /* TBDetector.xcdatamodeld in Sources */,
 				0DC6969D29F99BBB00863BB4 /* InfoView.swift in Sources */,
+				0DBD552229F9E4A000DCB9A4 /* FormularioView.swift in Sources */,
 				0DE6F38029F9986F00ECC77F /* Principal.swift in Sources */,
 				0D1804CC29F9882E00697970 /* Color.swift in Sources */,
 			);

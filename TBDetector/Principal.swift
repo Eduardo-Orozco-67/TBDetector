@@ -48,7 +48,7 @@ struct Principal: View {
                                 .opacity(0.35)
                             
                             HStack(alignment:.top,spacing: 30){
-                                NavigationLink(destination: MenuView()){
+                                NavigationLink(destination: FormularioView()){
                                     ZStack{
                                         Color.Rosa
                                             .opacity(0.70)
