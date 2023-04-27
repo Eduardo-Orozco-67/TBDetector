@@ -314,7 +314,7 @@ struct FormularioView: View {
                                 
                             } else{
                                 
-                                NavigationLink(destination: EncuestaView()){
+                                NavigationLink(destination: preguntaView()){
                                     Text("Continuar")
                                         .foregroundColor(.white)
                                         .frame(width: 200, height:50)

@@ -15,5 +15,8 @@ extension Color {
     public static let AguaMarina: Color = Color(UIColor(red: 16/255, green: 128/255, blue: 142/255,alpha: 1.0))
     
     public static let Rojo: Color = Color(UIColor(red: 233/255, green: 23/255, blue: 32/255,alpha: 1.0))
+    
+    public static let RosaClear: Color = Color(UIColor(red: 253/255, green: 216/255, blue: 221/255,alpha: 1.0))
+    
 }
 

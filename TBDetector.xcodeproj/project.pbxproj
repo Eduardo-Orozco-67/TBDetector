@@ -21,6 +21,12 @@
 		0D9C283D29F9861300BA7ADB /* TBDetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283C29F9861300BA7ADB /* TBDetectorUITests.swift */; };
 		0D9C283F29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C283E29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift */; };
 		0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */; };
+		0DB6975229FA01AC000388D3 /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6975129FA01AC000388D3 /* WarningView.swift */; };
+		0DB6975429FA01E1000388D3 /* SintoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6975329FA01E1000388D3 /* SintoView.swift */; };
+		0DB6975629FA01F0000388D3 /* PTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6975529FA01F0000388D3 /* PTBView.swift */; };
+		0DB6975829FA0210000388D3 /* InfoTTB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6975729FA0210000388D3 /* InfoTTB.swift */; };
+		0DB6975A29FA0219000388D3 /* DTBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6975929FA0219000388D3 /* DTBView.swift */; };
+		0DB6975C29FA0A14000388D3 /* SaludableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB6975B29FA0A14000388D3 /* SaludableView.swift */; };
 		0DBD552229F9E4A000DCB9A4 /* FormularioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */; };
 		0DC6969929F996A300863BB4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6969829F996A300863BB4 /* MenuView.swift */; };
 		0DC6969D29F99BBB00863BB4 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC6969C29F99BBB00863BB4 /* InfoView.swift */; };
@@ -61,6 +67,12 @@
 		0D9C283C29F9861300BA7ADB /* TBDetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorUITests.swift; sourceTree = "<group>"; };
 		0D9C283E29F9861300BA7ADB /* TBDetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBDetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncuestaView.swift; sourceTree = "<group>"; };
+		0DB6975129FA01AC000388D3 /* WarningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WarningView.swift; path = ../../../Downloads/TBDetector/TBDetector/WarningView.swift; sourceTree = "<group>"; };
+		0DB6975329FA01E1000388D3 /* SintoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SintoView.swift; path = ../../../Downloads/TBDetector/TBDetector/SintoView.swift; sourceTree = "<group>"; };
+		0DB6975529FA01F0000388D3 /* PTBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PTBView.swift; path = ../../../Downloads/TBDetector/TBDetector/PTBView.swift; sourceTree = "<group>"; };
+		0DB6975729FA0210000388D3 /* InfoTTB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoTTB.swift; path = ../../../Downloads/TBDetector/TBDetector/InfoTTB.swift; sourceTree = "<group>"; };
+		0DB6975929FA0219000388D3 /* DTBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTBView.swift; path = ../../../Downloads/TBDetector/TBDetector/DTBView.swift; sourceTree = "<group>"; };
+		0DB6975B29FA0A14000388D3 /* SaludableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaludableView.swift; sourceTree = "<group>"; };
 		0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioView.swift; sourceTree = "<group>"; };
 		0DC6969829F996A300863BB4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0DC6969C29F99BBB00863BB4 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -116,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				0D9C281C29F9861200BA7ADB /* TBDetectorApp.swift */,
+				0DB6975B29FA0A14000388D3 /* SaludableView.swift */,
 				0D1804C929F987DA00697970 /* SplashScreenView.swift */,
 				0DE6F37F29F9986F00ECC77F /* Principal.swift */,
 				0D1804CB29F9882E00697970 /* Color.swift */,
@@ -124,6 +137,11 @@
 				0DC6969C29F99BBB00863BB4 /* InfoView.swift */,
 				0D1BF9D829F9FEF2009E3AFF /* TuberculosisFormView.swift */,
 				0D9C282529F9861300BA7ADB /* Persistence.swift */,
+				0DB6975129FA01AC000388D3 /* WarningView.swift */,
+				0DB6975729FA0210000388D3 /* InfoTTB.swift */,
+				0DB6975329FA01E1000388D3 /* SintoView.swift */,
+				0DB6975929FA0219000388D3 /* DTBView.swift */,
+				0DB6975529FA01F0000388D3 /* PTBView.swift */,
 				0D9C284B29F98E5E00BA7ADB /* EncuestaView.swift */,
 				0D1BF9D629F9FE75009E3AFF /* preguntaView.swift */,
 				0DBD552129F9E4A000DCB9A4 /* FormularioView.swift */,
@@ -288,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DB6975829FA0210000388D3 /* InfoTTB.swift in Sources */,
+				0DB6975A29FA0219000388D3 /* DTBView.swift in Sources */,
 				0D9C282629F9861300BA7ADB /* Persistence.swift in Sources */,
 				0DC6969929F996A300863BB4 /* MenuView.swift in Sources */,
 				0D9C284C29F98E5E00BA7ADB /* EncuestaView.swift in Sources */,
@@ -297,8 +317,12 @@
 				0D1BF9D729F9FE76009E3AFF /* preguntaView.swift in Sources */,
 				0D9C282929F9861300BA7ADB /* TBDetector.xcdatamodeld in Sources */,
 				0DC6969D29F99BBB00863BB4 /* InfoView.swift in Sources */,
+				0DB6975C29FA0A14000388D3 /* SaludableView.swift in Sources */,
+				0DB6975629FA01F0000388D3 /* PTBView.swift in Sources */,
 				0DBD552229F9E4A000DCB9A4 /* FormularioView.swift in Sources */,
 				0DE6F38029F9986F00ECC77F /* Principal.swift in Sources */,
+				0DB6975429FA01E1000388D3 /* SintoView.swift in Sources */,
+				0DB6975229FA01AC000388D3 /* WarningView.swift in Sources */,
 				0D1804CC29F9882E00697970 /* Color.swift in Sources */,
 				0D1BF9D929F9FEF2009E3AFF /* TuberculosisFormView.swift in Sources */,
 			);

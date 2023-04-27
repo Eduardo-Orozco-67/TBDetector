@@ -18,9 +18,11 @@ struct Principal: View {
                                 .resizable()
                                 .frame(width: 100, height: 100)
                                 .padding(.trailing, 300)
-                            Text("TBDetector")
-                                .font(.custom("Impact", fixedSize: 60))
-                                .foregroundColor(Color.Rojo)
+                            Text("TB")
+                                .font(.system(size: 60))
+                                .foregroundColor(Color.Rojo).fontWeight(.bold)
+                            Text("Detector").font(.system(size: 60))
+                                .foregroundColor(Color.black).fontWeight(.medium)
                             
                             Image("logoTB2-sinfondo")
                                 .resizable()
@@ -48,14 +50,14 @@ struct Principal: View {
                                 .opacity(0.35)
                             
                             HStack(alignment:.top,spacing: 30){
-                                NavigationLink(destination: FormularioView()){
+                                NavigationLink(destination: WarningView()){
                                     ZStack{
                                         Color.Rosa
                                             .opacity(0.70)
                                         VStack{
-                                            Image("Diagnostico").resizable().frame(width: 240,height: 300)
-                                            //Color.black.opacity(0.3)
-                                            Text("Diagnóstico").foregroundColor(.white).fontWeight(.light)
+                                            Image("Diagnostico").resizable().frame(width: 240,height: 230)
+                                            
+                                            Text("Diagnóstico").foregroundColor(.white).fontWeight(.medium).font(.system(size: 35))
                                                 .font(Font.custom("Arial Rounded MT Bold", size: 26))
                                             
                                         }
@@ -64,16 +66,16 @@ struct Principal: View {
                                     
                                 }//Fin del NavigationLink
                                 
-                                NavigationLink(destination: MenuView()){
+                                NavigationLink(destination: EncuestaView()){
                                     ZStack{
                                         Color.Rosa
                                             .opacity(0.70)
                                         VStack{
-                                            Image("Información").resizable().frame(width: 230,height: 300)
+                                            Image("Información").resizable().frame(width: 230,height: 230)
                                             //Color.black.opacity(0.3)
-                                            Text("Información")
-                                                .foregroundColor(.white).fontWeight(.light)
+                                            Text("Información").foregroundColor(.white).fontWeight(.medium).font(.system(size: 35))
                                                 .font(Font.custom("Arial Rounded MT Bold", size: 26))
+                                                
                                             
                                         }
                                     }.frame(width: 240,height: 400).cornerRadius(10).shadow(radius: 5)
@@ -93,8 +95,9 @@ struct Principal: View {
                 
             }
             .ignoresSafeArea()
-        }
+        }//Fin del NV
         .navigationViewStyle(StackNavigationViewStyle())
+        
     }
 }
 
@@ -103,3 +106,4 @@ struct Principal_Previews: PreviewProvider {
         Principal()
     }
 }
+
